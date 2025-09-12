@@ -1,0 +1,1 @@
+"use strict";exports.id=196,exports.ids=[196],exports.modules={83196:(r,n,e)=>{function getUser(){return null}function register(r){return{ok:!1,error:"No window"}}function signIn(r){return{ok:!1,error:"No window"}}function signOut(){}e.d(n,{PR:()=>getUser,w7:()=>signOut,z2:()=>register,zB:()=>signIn})}};
