@@ -1,0 +1,26 @@
+# dependencies
+/node_modules
+
+# Next.js
+/.next
+/out
+/.vercel
+
+# env & local configs
+.env*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# testing/coverage
+/coverage
+
+# editor/mac
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
