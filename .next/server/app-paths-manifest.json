@@ -1,9 +1,9 @@
 {
   "/_not-found": "app/_not-found.js",
-  "/[locale]/auth/forgot-password/page": "app/[locale]/auth/forgot-password/page.js",
   "/[locale]/auth/sign-up/page": "app/[locale]/auth/sign-up/page.js",
-  "/[locale]/auth/sign-in/page": "app/[locale]/auth/sign-in/page.js",
   "/[locale]/builder/[id]/page": "app/[locale]/builder/[id]/page.js",
   "/[locale]/dashboard/page": "app/[locale]/dashboard/page.js",
-  "/[locale]/page": "app/[locale]/page.js"
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/auth/forgot-password/page": "app/[locale]/auth/forgot-password/page.js",
+  "/[locale]/auth/sign-in/page": "app/[locale]/auth/sign-in/page.js"
 }

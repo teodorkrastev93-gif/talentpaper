@@ -2,53 +2,42 @@
   "nav": {
     "brand": "Talent Paper",
     "how": "Cómo funciona",
-    "features": "Funciones",
+    "features": "Características",
     "templates": "Plantillas",
     "pricing": "Precios",
-    "faq": "FAQ",
+    "faq": "Preguntas",
     "home": "Inicio",
     "signin": "Iniciar sesión",
     "signup": "Crear cuenta"
   },
   "hero": {
     "title": "Talent Paper",
-    "tagline": "Simplifica tu búsqueda de empleo — desbloquea tu próxima oportunidad.",
+    "tagline": "Simplifica tu búsqueda de empleo — Desbloquea tu próxima oportunidad.",
     "ctaCreate": "Crear mi CV",
     "ctaSee": "Ver plantillas"
   },
   "auth": {
     "signin": "Iniciar sesión",
     "continue": "Continuar",
-    "forgot": "¿Olvidaste la contraseña?",
+    "forgot": "¿Olvidaste tu contraseña?",
     "noAccount": "¿No tienes cuenta?",
-    "createOne": "Crea una",
+    "createOne": "Crear una",
     "createAccount": "Crear cuenta",
     "haveAccount": "¿Ya tienes cuenta?",
-    "forgotPassword": "Contraseña olvidada",
-    "resetSent": "Si existe una cuenta, recibirás instrucciones para",
-    "sendReset": "Enviar enlace",
-    "backToSignin": "Volver a iniciar sesión"
+    "forgotPassword": "¿Olvidaste tu contraseña?"
   },
   "dashboard": {
     "title": "Panel",
-    "signout": "Cerrar sesión",
     "welcome": "Bienvenido",
+    "signout": "Cerrar sesión",
     "resume": "Currículum",
     "updatedToday": "Actualizado hoy",
     "edit": "Editar",
     "download": "Descargar",
     "createNew": "Crear nuevo CV"
   },
-  "builder": {
-    "title": "Constructor de CV",
-    "placeholder": "Aquí irá el editor de CV en vivo."
-  },
-  "footer": {
-    "about": "Acerca de",
-    "contact": "Contacto",
-    "terms": "Términos",
-    "privacy": "Privacidad",
-    "follow": "Seguir",
-    "rights": "Todos los derechos reservados."
+  "notFound": {
+    "message": "La página no se pudo encontrar.",
+    "backHome": "Volver al inicio"
   }
 }

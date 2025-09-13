@@ -2,7 +2,7 @@
   "nav": {
     "brand": "Talent Paper",
     "how": "Cum funcționează",
-    "features": "Funcții",
+    "features": "Funcționalități",
     "templates": "Șabloane",
     "pricing": "Prețuri",
     "faq": "Întrebări",
@@ -12,7 +12,7 @@
   },
   "hero": {
     "title": "Talent Paper",
-    "tagline": "Simplifică-ți căutarea jobului — deblochează următoarea oportunitate.",
+    "tagline": "Simplifică-ți căutarea locului de muncă — Descoperă următoarea ta oportunitate.",
     "ctaCreate": "Creează CV",
     "ctaSee": "Vezi șabloane"
   },
@@ -23,32 +23,21 @@
     "noAccount": "Nu ai cont?",
     "createOne": "Creează unul",
     "createAccount": "Creează cont",
-    "haveAccount": "Ai deja cont?",
-    "forgotPassword": "Parolă uitată",
-    "resetSent": "Dacă există cont, vei primi instrucțiuni pentru",
-    "sendReset": "Trimite link",
-    "backToSignin": "Înapoi la autentificare"
+    "haveAccount": "Ai deja un cont?",
+    "forgotPassword": "Ți-ai uitat parola?"
   },
   "dashboard": {
-    "title": "Panou",
-    "signout": "Delogare",
-    "welcome": "Bine ai venit",
+    "title": "Tablou",
+    "welcome": "Bun venit",
+    "signout": "Deconectare",
     "resume": "CV",
     "updatedToday": "Actualizat azi",
     "edit": "Editează",
     "download": "Descarcă",
     "createNew": "Creează CV nou"
   },
-  "builder": {
-    "title": "Editor CV",
-    "placeholder": "Aici va fi editorul live de CV."
-  },
-  "footer": {
-    "about": "Despre",
-    "contact": "Contact",
-    "terms": "Termeni",
-    "privacy": "Confidențialitate",
-    "follow": "Urmărește",
-    "rights": "Toate drepturile rezervate."
+  "notFound": {
+    "message": "Pagina nu a fost găsită.",
+    "backHome": "Înapoi la început"
   }
 }

@@ -24,31 +24,20 @@
     "createOne": "Създай",
     "createAccount": "Създай акаунт",
     "haveAccount": "Вече имаш акаунт?",
-    "forgotPassword": "Забравена парола",
-    "resetSent": "Ако има акаунт, ще получиш инструкции за",
-    "sendReset": "Изпрати линк",
-    "backToSignin": "Назад към вход"
+    "forgotPassword": "Забравена парола?"
   },
   "dashboard": {
     "title": "Табло",
-    "signout": "Изход",
     "welcome": "Добре дошъл",
-    "resume": "Резюме",
+    "signout": "Изход",
+    "resume": "Автобиография",
     "updatedToday": "Обновено днес",
-    "edit": "Редакция",
-    "download": "Свали",
-    "createNew": "Ново CV"
+    "edit": "Редактирай",
+    "download": "Изтегли",
+    "createNew": "Създай ново CV"
   },
-  "builder": {
-    "title": "CV Редактор",
-    "placeholder": "Тук ще бъде живият редактор на CV."
-  },
-  "footer": {
-    "about": "За нас",
-    "contact": "Контакт",
-    "terms": "Условия",
-    "privacy": "Поверителност",
-    "follow": "Последвай",
-    "rights": "Всички права запазени."
+  "notFound": {
+    "message": "Страницата не беше намерена.",
+    "backHome": "Обратно към началото"
   }
 }

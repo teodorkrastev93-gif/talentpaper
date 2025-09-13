@@ -1,8 +1,9 @@
-/** @type {import('next').NextConfig} */
+import createNextIntlPlugin from 'next-intl/plugin';
+
+const withNextIntl = createNextIntlPlugin('./next-intl.config.ts');
+
 const nextConfig = {
   reactStrictMode: true,
-
-  // Don’t let type/lint errors kill the Vercel build
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -11,4 +12,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);

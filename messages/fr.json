@@ -12,7 +12,7 @@
   },
   "hero": {
     "title": "Talent Paper",
-    "tagline": "Simplifiez votre recherche d'emploi — débloquez votre prochaine opportunité.",
+    "tagline": "Simplifiez votre recherche d’emploi — Débloquez votre prochaine opportunité.",
     "ctaCreate": "Créer mon CV",
     "ctaSee": "Voir les modèles"
   },
@@ -21,34 +21,23 @@
     "continue": "Continuer",
     "forgot": "Mot de passe oublié ?",
     "noAccount": "Pas de compte ?",
-    "createOne": "Créez-en un",
+    "createOne": "Créer un",
     "createAccount": "Créer un compte",
     "haveAccount": "Vous avez déjà un compte ?",
-    "forgotPassword": "Mot de passe oublié",
-    "resetSent": "Si un compte existe, vous recevrez des instructions pour",
-    "sendReset": "Envoyer le lien",
-    "backToSignin": "Retour à la connexion"
+    "forgotPassword": "Mot de passe oublié ?"
   },
   "dashboard": {
     "title": "Tableau de bord",
-    "signout": "Déconnexion",
     "welcome": "Bienvenue",
+    "signout": "Se déconnecter",
     "resume": "CV",
-    "updatedToday": "Mis à jour aujourd'hui",
-    "edit": "Éditer",
+    "updatedToday": "Mis à jour aujourd’hui",
+    "edit": "Modifier",
     "download": "Télécharger",
     "createNew": "Créer un nouveau CV"
   },
-  "builder": {
-    "title": "Éditeur de CV",
-    "placeholder": "Ici se trouvera l'éditeur de CV en direct."
-  },
-  "footer": {
-    "about": "À propos",
-    "contact": "Contact",
-    "terms": "Conditions",
-    "privacy": "Confidentialité",
-    "follow": "Suivre",
-    "rights": "Tous droits réservés."
+  "notFound": {
+    "message": "Cette page est introuvable.",
+    "backHome": "Retour à l’accueil"
   }
 }

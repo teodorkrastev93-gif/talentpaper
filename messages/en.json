@@ -12,7 +12,7 @@
   },
   "hero": {
     "title": "Talent Paper",
-    "tagline": "Simplify Your Job Search — Unlock Your Next Opportunity.",
+    "tagline": "Simplify your job search — Unlock your next opportunity.",
     "ctaCreate": "Create my CV",
     "ctaSee": "See templates"
   },
@@ -20,35 +20,24 @@
     "signin": "Sign in",
     "continue": "Continue",
     "forgot": "Forgot password?",
-    "noAccount": "No account?",
+    "noAccount": "Don’t have an account?",
     "createOne": "Create one",
     "createAccount": "Create account",
     "haveAccount": "Already have an account?",
-    "forgotPassword": "Forgot password",
-    "resetSent": "If an account exists, you'll receive reset instructions for",
-    "sendReset": "Send reset link",
-    "backToSignin": "Back to sign in"
+    "forgotPassword": "Forgot your password?"
   },
   "dashboard": {
     "title": "Dashboard",
-    "signout": "Sign out",
     "welcome": "Welcome",
+    "signout": "Sign out",
     "resume": "Resume",
     "updatedToday": "Updated today",
     "edit": "Edit",
     "download": "Download",
     "createNew": "Create new CV"
   },
-  "builder": {
-    "title": "CV Builder",
-    "placeholder": "This is where the live CV editor will go."
-  },
-  "footer": {
-    "about": "About",
-    "contact": "Contact",
-    "terms": "Terms",
-    "privacy": "Privacy",
-    "follow": "Follow",
-    "rights": "All rights reserved."
+  "notFound": {
+    "message": "This page could not be found.",
+    "backHome": "Back to Home"
   }
 }
