@@ -70,7 +70,16 @@ export default function BuilderPage() {
         />
 
         <label className="mt-4 block text-sm text-white/70">Headline</label>
+<input
+  value={cv.data.headline || ""}
+  onChange={(e) => save("headline", e.target.value)}
+  className="mt-1 w-full rounded-xl border border-white/20 bg-transparent px-4 py-3 outline-none"
+/>
+
         <input
+  value={cv.data.headline || ""}
+  onChange={(e) => save("headline", e.target.value)}
+  className="mt-1 w-full rounded-xl border border-white/20 bg-transparent px-4 py-3 outline-none"/><input
 {/* Skills */}
         <label className="mt-4 block text-sm text-white/70">Skills (comma separated)</label>
         <input
