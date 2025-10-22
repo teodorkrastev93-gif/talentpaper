@@ -71,6 +71,61 @@ export default function BuilderPage() {
 
         <label className="mt-4 block text-sm text-white/70">Headline</label>
         <input
+{/* Skills */}
+        <label className="mt-4 block text-sm text-white/70">Skills (comma separated)</label>
+        <input
+          value={(cv.data.skills || []).join(", ")}
+          onChange={(e) => save("skills", e.target.value)}
+          className="mt-1 w-full rounded-xl border border-white/20 bg-transparent px-4 py-3 outline-none"
+        />
+        {/* Education */}
+        <label className="mt-4 block text-sm text-white/70">Education</label>
+        <input
+          value={cv.data.education || ""}
+          onChange={(e) => save("education", e.target.value)}
+          className="mt-1 w-full rounded-xl border border-white/20 bg-transparent px-4 py-3 outline-none"
+        />
+        {/* Photo */}
+        <label className="mt-4 block text-sm text-white/70">Photo</label>
+        <input
+          type="file"
+          accept="image/*"
+          onChange={(e) => {
+            const file = e.target.files?.[0];
+            if (file) {
+              const reader = new FileReader();
+              reader.onloadend = () => {
+                save("photo", reader.result as string);
+              };
+              reader.readAsDataURL(file);
+            }
+          }}
+          className="mt-1 w-full rounded-xl border border-white/20 bg-transparent px-4 py-3 outline-none"
+        />
+        {/* Template */}
+        <label className="mt-4 block text-sm text-white/70">Template</label>
+        <select
+          value={cv.data.template || "classic"}
+          onChange={(e) => save("template", e.target.value)}
+          className="mt-1 w-full rounded-xl border border-white/20 bg-transparent px-4 py-3 text-black outline-none"
+        >
+          <option value="classic">Classic</option>
+          <option value="modern">Modern</option>
+          <option value="minimal">Minimal</option>
+        </select>
+        {/* Generate summary button */}
+        <button
+          type="button"
+          onClick={() => {
+            const skills = cv.data.skills || [];
+            const head = cv.data.headline || "";
+            const summary = `${head ? head + '. ' : ''}Skilled in ${skills.join(", ")}.`;
+            save("summary", summary);
+          }}
+          className="mt-4 rounded-xl bg-green-700 px-4 py-2 text-white"
+        >
+          Generate Summary
+        </button>
           value={cv.data.headline || ""}
           onChange={(e) => save("headline", e.target.value)}
           className="mt-1 w-full rounded-xl border border-white/20 bg-transparent px-4 py-3 outline-none"
